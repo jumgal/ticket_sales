@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: jumgall/auth
-
+          image: us.gcr.io/ticketing-dev-306018/auth
   
 ---
 
