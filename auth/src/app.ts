@@ -7,8 +7,10 @@ import { currentUserRouter } from "./routes/current-user";
 import { signInRouter } from "./routes/signin";
 import { signUpRouter } from "./routes/signup";
 import { signOutRouter } from "./routes/signout";
-import { errorHandler } from "./middlewares/error-handler";
-import { NotFoundError } from "./errors/not-found-error";
+// import { errorHandler } from "./middlewares/error-handler";
+// import { NotFoundError } from "./errors/not-found-error";
+
+import {errorHandler, NotFoundError} from "@ticket_sale_app/common";
 
 const app = express();
 app.set("trust proxy", true);
